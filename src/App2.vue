@@ -1,23 +1,23 @@
 <template>
-  <div id="app">
-      <Login></Login>
+  <div id="app2">
+    <index></index>
   </div>
 </template>
 
 <script>
-import Login from './components/Login.vue'
+import Index from "@/components/Index";
 
 
 export default {
-  name: 'App',
+  name: 'App2',
   components: {
-    Login
+    Index,
   }
 }
 </script>
 
 <style>
-#app {
+#app2 {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

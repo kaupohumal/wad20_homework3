@@ -14,7 +14,7 @@
             </div>
             <div>
                 <h3>Please Log In</h3>
-                <form action="index.html" method="post">
+                <form action="index.vue" method="post">
                     <div>
                         <input type="text" name="email" placeholder="Email">
                     </div>
