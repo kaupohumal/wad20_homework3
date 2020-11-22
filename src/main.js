@@ -6,6 +6,7 @@ import VueRouter from 'vue-router'
 
 
 
+
 Vue.config.productionTip = false
 const routes = [
   {path: '/Login.vue', component: Login},
