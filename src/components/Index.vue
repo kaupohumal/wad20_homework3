@@ -1,17 +1,17 @@
 <template>
     <div class={{post}} id={{postNumber}}>
       <div class="post-author">
-          <span class={{post-author-info}}>
-            <img id={{avatar}}>
-            <small id={{authorid}}></small>
+          <span :class="post-author-info">
+            <img :id="authorimg">
+            <small :id="authorid"></small>
           </span>
-        <small id={{createId}}></small>
+        <small :id="createId"></small>
       </div>
       <div class="post-image">
-        <img id={{img}} alt="">
+        <img :id="postimg" alt="">
       </div>
       <div class="post-title">
-        <h3 id={{title}}></h3>
+        <h3 :id="title"></h3>
       </div>
       <div class="post-actions">
         <button @click="LikePressed('postNumber')" name = "like" class ="like/button" id = "likes"></button>

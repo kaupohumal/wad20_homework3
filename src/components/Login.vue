@@ -22,7 +22,8 @@
                         <input type="password" name="password" placeholder="Password">
                     </div>
                     <div>
-                        <button class="button" type="submit" name="login">Log In</button>
+                      <!-- <el-button type="primary" @click="gogo">Log In</el-button>     //see peaks ta tootama mingi meetodiga-->
+                        <button v-on:click="component = index" class="button" type="submit" name="login">Log In</button>
                     </div>
                     <div>
                         <small>
@@ -37,6 +38,13 @@
 
 
 <script>
+export default{
+    methods:{
+        gogo(){
+          location.assign('../components/Index.vue')
+        }
+    }
+    }
 </script>
 
 <style>
